@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 10;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #7e57c2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-left {
+    padding: 20px;
+  }
+  
+  .company-name {
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 15px;
+    padding-bottom: 5px;
+  }
+  
+  .navbar-center ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-center ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar-center ul li a {
+    font-size: 22px;
+    color: #fff;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .navbar-center ul li a:hover {
+    box-shadow: 2px 2px 4px rgba(126, 87, 194, 0.5);
+  }
+  
+  .navbar-right {
+    padding-right: 20px;
+  }
+  
+  .get-started-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5a3998;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, font-weight 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+  }
+  
+
+  #MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+

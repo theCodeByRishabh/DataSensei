@@ -1,0 +1,55 @@
+input[type=text], input[type=email], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+  }
+
+
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+
+
+.logo{
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
+    color: #00BCD1;
+    }
+
+.btn{
+  color: rgb(255, 255, 255);
+  background-color: white;
+  width: 200%;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 2px solid #041849;
+  box-shadow: 0 3px 10px 0 rgb(0, 188, 209), 0 5px 10px 0 rgb(0, 188, 209);
+}
+.btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container {
+                    padding-top: 0rem;
+                    padding-bottom: 0rem;
+                    padding-left: 0rem;
+                    padding-right: 5rem;
+                }
+
+
+
+
+
+
+
+
+
+
